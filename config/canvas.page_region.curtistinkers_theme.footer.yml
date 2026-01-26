@@ -20,5 +20,4 @@ component_tree:
     slot: footer_utility_first
     uuid: c792f1a5-fd27-40de-8d91-12b2ced91e61
     component_id: block.system_menu_block.footer
-    component_version: 68bdb40e1ac48125
     inputs: '{"label":"Footer","label_display":"0","level":1,"depth":null,"expand_all_items":false}'

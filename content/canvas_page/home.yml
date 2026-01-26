@@ -19,7 +19,7 @@ default:
   components:
     -
       uuid: b7563f5f-d4db-4029-a292-593e82fda2ec
-      component_id: sdc.curtistinkers_theme.cta
+      component_id: sdc.mercury.cta
       inputs:
         heading_text: 'Your hero content goes here'
         level: 1
@@ -29,15 +29,12 @@ default:
       parent_uuid: b7563f5f-d4db-4029-a292-593e82fda2ec
       slot: actions
       uuid: 1c006688-4739-47e3-a57c-eaa65026afbf
-      component_id: sdc.curtistinkers_theme.button
+      component_id: sdc.mercury.button
       inputs:
         variant: primary
         size: large
         label: 'Call to action'
-        mobile_width: false
         icon: arrow-right
-        icon_first: false
-        disabled: false
   path:
     -
       alias: /home

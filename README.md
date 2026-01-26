@@ -26,7 +26,7 @@ A simple template with just the basics. Bring your own design, and build what yo
 This project is part of [Drupal CMS](https://drupal.org/project/cms). If you're not using Drupal CMS, you can still use this recipe in your own project. Add it with the following Composer command:
 
 ```
-composer require drupal/drupal_cms_starter
+composer require drupal/curtistinkers_cms_starter
 ```
 
 ## Bugs and Feedback
