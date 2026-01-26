@@ -1,5 +1,5 @@
 {
-    "name": "drupal/drupal_cms_starter",
+    "name": "curtistinkers/curtistinkers_cms_starter",
     "description": "A basic site template to get started with Drupal CMS. Bring your own design, and build what you need.",
     "type": "drupal-recipe",
     "license": ["GPL-2.0-or-later"],
@@ -15,6 +15,5 @@
         "drupal/drupal_cms_seo_basic": "^2",
         "drupal/easy_email_express": "^1.0.2",
         "drupal/curtistinkers_theme": "^1"
-    },
-    "version": "2.0.0-rc1"
+    }
 }
