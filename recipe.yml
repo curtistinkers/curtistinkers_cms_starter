@@ -54,8 +54,6 @@ config:
     #         ttl: 1
     #       drupalorg_jsonapi: []
     #     default_source: recommended
-    block.system_menu_block.social:
-      enable: []
     # Disable Canvas components that aren't really useful in building pages or
     # content templates.
     # canvas.component.block.announce_block:
