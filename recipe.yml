@@ -23,7 +23,7 @@ install:
   # - project_browser
   # These are in Standard.
   # - inline_form_errors
-  # - config
+  - config
   - canvas
   # This theme MUST be installed or Canvas breaks in strange ways.
   - canvas_stark
@@ -38,6 +38,9 @@ config:
     system.theme:
       simpleConfigUpdate:
         default: curtistinkers_theme
+    node.settings:
+      simpleConfigUpdate:
+        use_admin_theme: false
     # project_browser.admin_settings:
     #   simpleConfigUpdate:
     #     enabled_sources:
