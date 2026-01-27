@@ -3,10 +3,10 @@ type: Site
 description: A simple template with just the basics. Bring your own design, and build what you need.
 recipes:
   # Required for canvas
-  # - core/recipes/image_media_type
-  # - core/recipes/administrator_role
-  # - core/recipes/core_recommended_maintenance
-  # - core/recipes/core_recommended_performance
+  - core/recipes/image_media_type
+  - core/recipes/administrator_role
+  - core/recipes/core_recommended_maintenance
+  - core/recipes/core_recommended_performance
   - drupal_cms_admin_ui
   #- drupal_cms_authentication
   # - drupal_cms_anti_spam
@@ -22,7 +22,7 @@ install:
   - redis
   # - project_browser
   # These are in Standard.
-  # - inline_form_errors
+  - inline_form_errors
   - config
   - canvas
   # This theme MUST be installed or Canvas breaks in strange ways.
@@ -31,16 +31,19 @@ config:
   import:
       canvas: '*'
   actions:
+    # Set /home to front page
     system.site:
       simpleConfigUpdate:
         # The Home page, built in Canvas.
         page.front: '/home'
+    # Make curtistinkers_theme default theme
     system.theme:
       simpleConfigUpdate:
         default: curtistinkers_theme
+    # Add/edit/delete node uses admin theme
     node.settings:
       simpleConfigUpdate:
-        use_admin_theme: false
+        use_admin_theme: true
     # project_browser.admin_settings:
     #   simpleConfigUpdate:
     #     enabled_sources:
