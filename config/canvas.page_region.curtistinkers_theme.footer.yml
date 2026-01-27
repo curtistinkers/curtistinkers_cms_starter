@@ -2,8 +2,17 @@ langcode: en
 status: true
 dependencies:
   config:
+    - canvas.component.block.system_branding_block
     - canvas.component.block.system_menu_block.footer
+    - canvas.component.block.system_menu_block.social
     - canvas.component.sdc.curtistinkers_theme.footer
+    - canvas.component.sdc.curtistinkers_theme.group
+    - canvas.component.sdc.curtistinkers_theme.heading
+    - canvas.component.sdc.curtistinkers_theme.text
+    - filter.format.canvas_html_block
+  module:
+    - options
+    - text
   theme:
     - curtistinkers_theme
 id: curtistinkers_theme.footer
@@ -15,6 +24,30 @@ component_tree:
     component_id: sdc.curtistinkers_theme.footer
     component_version: d696cea1796b650e
     inputs: '{"align":true}'
+  '0:footer_first:0':
+    parent_uuid: bd25d2aa-d623-479e-86c7-89ecffdd3dfa
+    slot: footer_first
+    uuid: 0013a76b-61bc-4a61-95c2-9b8e3ee45aef
+    component_id: block.system_branding_block
+    inputs: '{"use_site_logo":false,"use_site_name":true,"use_site_slogan":false,"label":"Site branding","label_display":"0"}'
+  '0:footer_last:0':
+    parent_uuid: bd25d2aa-d623-479e-86c7-89ecffdd3dfa
+    slot: footer_last
+    uuid: 361b16b8-33aa-44a2-b8fc-386fc71d827d
+    component_id: sdc.curtistinkers_theme.group
+    inputs: '{"flex_direction":"column","items_align":"center","flex_align":"center"}'
+  '0:footer_last:0:group_slot:0':
+    parent_uuid: 361b16b8-33aa-44a2-b8fc-386fc71d827d
+    slot: group_slot
+    uuid: 4593259d-2cdc-4169-ab35-03f9dd1a8a66
+    component_id: sdc.curtistinkers_theme.heading
+    inputs: '{"heading_text":"Follow me","level":2,"text_size":"default","text_color":"primary","align":"center"}'
+  '0:footer_last:0:group_slot:1':
+    parent_uuid: 361b16b8-33aa-44a2-b8fc-386fc71d827d
+    slot: group_slot
+    uuid: 74d36e0e-de27-4a0d-8f58-44ef0e9726a2
+    component_id: block.system_menu_block.social
+    inputs: '{"label":"Social links","label_display":"0","level":1,"depth":null,"expand_all_items":false}'
   '0:footer_utility_first:0':
     parent_uuid: bd25d2aa-d623-479e-86c7-89ecffdd3dfa
     slot: footer_utility_first
