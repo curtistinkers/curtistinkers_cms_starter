@@ -4,6 +4,8 @@ _meta:
   uuid: 51295fed-6dc9-4d68-8ed5-ace33045861b
   bundle: menu_link_content
   default_langcode: en
+  depends:
+    bb5bbbb1-4a16-4b86-bbea-b215ab8096cf: canvas_page
 default:
   enabled:
     -
@@ -16,9 +18,17 @@ default:
       value: main
   link:
     -
-      uri: 'internal:/home'
       title: ''
-      options: {  }
+      options:
+        icon:
+          target_id: 'phosphor:house'
+          settings:
+            phosphor:
+              size: '32'
+              color: '#000000'
+              alt: 'Home page'
+        icon_display: before
+      target_uuid: bb5bbbb1-4a16-4b86-bbea-b215ab8096cf
   external:
     -
       value: false
@@ -27,7 +37,7 @@ default:
       value: true
   weight:
     -
-      value: 0
+      value: -50
   expanded:
     -
       value: false
