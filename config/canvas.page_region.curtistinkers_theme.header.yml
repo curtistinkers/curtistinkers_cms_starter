@@ -3,6 +3,7 @@ status: true
 dependencies:
   config:
     - canvas.component.block.system_branding_block
+    - canvas.component.block.system_breadcrumb_block
     - canvas.component.block.system_menu_block.main
     - canvas.component.sdc.curtistinkers_theme.navbar
   module:
@@ -16,7 +17,6 @@ component_tree:
   0:
     uuid: 3b448d2f-f191-44cb-8189-2362dbf3fe18
     component_id: sdc.curtistinkers_theme.navbar
-    component_version: 3149f199d66bbc29
     inputs: '{"menu_align":"right"}'
   '0:logo:0':
     parent_uuid: 3b448d2f-f191-44cb-8189-2362dbf3fe18
@@ -30,3 +30,7 @@ component_tree:
     uuid: 6d13ceff-24ca-47d3-9a3b-10bc48480618
     component_id: block.system_menu_block.main
     inputs: '{"label":"Main navigation","label_display":"0","level":1,"depth":null,"expand_all_items":false}'
+  1:
+    uuid: 344da009-32d1-49f5-a4e9-d9b343bfbd7d
+    component_id: block.system_breadcrumb_block
+    inputs: '{"label":"Breadcrumbs","label_display":"0"}'
