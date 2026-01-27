@@ -20,6 +20,7 @@ install:
   - cva
   - menu_link_content
   - redis
+  - ui_icons_menu
   # - project_browser
   # These are in Standard.
   - inline_form_errors
