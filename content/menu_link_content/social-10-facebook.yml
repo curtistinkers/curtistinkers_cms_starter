@@ -1,7 +1,7 @@
 _meta:
   version: '1.0'
   entity_type: menu_link_content
-  uuid: 29d0534d-fe33-4d31-974e-986c1ed956ae
+  uuid: 732c8bc4-b774-4160-becb-3a40e61fef72
   bundle: menu_link_content
   default_langcode: en
 default:
@@ -10,22 +10,22 @@ default:
       value: true
   title:
     -
-      value: YouTube
+      value: Facebook
   menu_name:
     -
       value: social
   link:
     -
-      uri: 'https://www.youtube.com/@curtistinkers'
+      uri: 'https://www.facebook.com/curtistinkers'
       title: ''
       options:
         icon:
-          target_id: 'phosphor:youtube-logo'
+          target_id: 'phosphor:facebook-logo'
           settings:
             phosphor:
               size: '32'
               color: '#000000'
-              alt: 'Follow us on YouTube'
+              alt: 'Follow us on Facebook'
         icon_display: icon_only
   external:
     -
@@ -35,7 +35,7 @@ default:
       value: false
   weight:
     -
-      value: -50
+      value: 10
   expanded:
     -
       value: false

@@ -1,7 +1,7 @@
 _meta:
   version: '1.0'
   entity_type: menu_link_content
-  uuid: e14239ca-34c9-4ef1-9e16-8c2ca6dcdc95
+  uuid: 55d5e990-be05-409c-8394-95a37274f383
   bundle: menu_link_content
   default_langcode: en
 default:
@@ -10,23 +10,28 @@ default:
       value: true
   title:
     -
-      value: Threads
+      value: Reddit
+  description:
+    -
+      value: Reddit
   menu_name:
     -
       value: social
   link:
     -
-      uri: 'https://www.threads.net/@curtistinkers'
+      uri: 'https://www.reddit.com/u/curtistinkers'
       title: ''
       options:
         icon:
-          target_id: 'phosphor:threads-logo'
+          target_id: 'phosphor:reddit-logo'
           settings:
             phosphor:
               size: '32'
               color: '#000000'
-              alt: 'Follow us on Threads'
+              alt: 'Follow me on Reddit'
         icon_display: icon_only
+        attributes:
+          target: _blank
   external:
     -
       value: false
@@ -35,7 +40,7 @@ default:
       value: false
   weight:
     -
-      value: 0
+      value: 10
   expanded:
     -
       value: false

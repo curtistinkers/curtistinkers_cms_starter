@@ -1,7 +1,7 @@
 _meta:
   version: '1.0'
   entity_type: menu_link_content
-  uuid: d78e370d-402d-4e10-b1d0-1b95d9a90573
+  uuid: 29d0534d-fe33-4d31-974e-986c1ed956ae
   bundle: menu_link_content
   default_langcode: en
 default:
@@ -10,22 +10,22 @@ default:
       value: true
   title:
     -
-      value: 'X (formerly Twitter)'
+      value: YouTube
   menu_name:
     -
       value: social
   link:
     -
-      uri: 'https://x.com/curtistinkers'
+      uri: 'https://www.youtube.com/@curtistinkers'
       title: ''
       options:
         icon:
-          target_id: 'phosphor:x-logo'
+          target_id: 'phosphor:youtube-logo'
           settings:
             phosphor:
               size: '32'
               color: '#000000'
-              alt: 'Follow us on X (formerly Twitter)'
+              alt: 'Follow us on YouTube'
         icon_display: icon_only
   external:
     -

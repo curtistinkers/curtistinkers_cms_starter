@@ -1,7 +1,7 @@
 _meta:
   version: '1.0'
   entity_type: menu_link_content
-  uuid: 732c8bc4-b774-4160-becb-3a40e61fef72
+  uuid: 294bda98-240b-4dac-a555-ae7343994d55
   bundle: menu_link_content
   default_langcode: en
 default:
@@ -10,22 +10,22 @@ default:
       value: true
   title:
     -
-      value: Facebook
+      value: Bluesky
   menu_name:
     -
       value: social
   link:
     -
-      uri: 'https://www.facebook.com/curtistinkers'
+      uri: 'https://bsky.app/profile/curtistinkers.com'
       title: ''
       options:
         icon:
-          target_id: 'phosphor:facebook-logo'
+          target_id: 'phosphor:butterfly'
           settings:
             phosphor:
               size: '32'
               color: '#000000'
-              alt: 'Follow us on Facebook'
+              alt: 'Follow us on Bluesky'
         icon_display: icon_only
   external:
     -
@@ -35,7 +35,7 @@ default:
       value: false
   weight:
     -
-      value: 0
+      value: 10
   expanded:
     -
       value: false
