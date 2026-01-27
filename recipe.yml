@@ -13,6 +13,7 @@ recipes:
   - drupal_cms_media
   - drupal_cms_privacy_basic
   - drupal_cms_seo_basic
+  - curtistinkers_cms_blog
   # - easy_email_express
 install:
   - curtistinkers_theme
