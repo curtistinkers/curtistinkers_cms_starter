@@ -7,7 +7,7 @@ recipes:
   # - core/recipes/administrator_role
   # - core/recipes/core_recommended_maintenance
   # - core/recipes/core_recommended_performance
-  #- drupal_cms_admin_ui
+  - drupal_cms_admin_ui
   #- drupal_cms_authentication
   # - drupal_cms_anti_spam
   # - drupal_cms_media
