@@ -1,0 +1,49 @@
+_meta:
+  version: '1.0'
+  entity_type: menu_link_content
+  uuid: e47e344a-8e9c-40ca-acdc-54ee953b7dde
+  bundle: menu_link_content
+  default_langcode: en
+  depends:
+    45fd8b98-3e2f-4ce5-9657-3b736c6f6bae: node
+default:
+  enabled:
+    -
+      value: true
+  title:
+    -
+      value: Sponsor
+  description:
+    -
+      value: 'Sponsorship, donation, and affiliate links'
+  menu_name:
+    -
+      value: secondary
+  link:
+    -
+      title: ''
+      options:
+        icon:
+          target_id: 'phosphor:money-wavy'
+          settings:
+            phosphor:
+              size: '32'
+              color: '#000000'
+              alt: ''
+        icon_display: before
+      target_uuid: 45fd8b98-3e2f-4ce5-9657-3b736c6f6bae
+  external:
+    -
+      value: false
+  rediscover:
+    -
+      value: false
+  weight:
+    -
+      value: -50
+  expanded:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true

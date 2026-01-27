@@ -1,0 +1,60 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 45fd8b98-3e2f-4ce5-9657-3b736c6f6bae
+  bundle: page
+  default_langcode: en
+default:
+  revision_uid:
+    -
+      target_id: 1
+  revision_log:
+    -
+      value: 'Added menu links and published'
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Sponsorship, donation, and affiliate links'
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  moderation_state:
+    -
+      value: published
+  path:
+    -
+      alias: /sponsor
+      langcode: en
+  publish_state:
+    -
+      value: _none
+  unpublish_state:
+    -
+      value: _none
+  sae_exclude:
+    -
+      value: false
+  field_content:
+    -
+      value: '<p>You can support my work directly using the links below.</p><h2>Sponsorship</h2><ul><li data-list-item-id="ec821e9f051174314301508539cf14e74">Patreon (coming soon)</li><li data-list-item-id="e04bb82a42adcea73302f67158110a33c">GitHub (coming soon)</li></ul><h2>Referrals</h2><ul><li data-list-item-id="e304893a76017078ae4c8d3a4abad2674"><a href="https://hostinger.com?REFERRALCODE=curtistinkers">Sign up for hosting, VPS, email, or Horizons plan on Hostinger and get a discount</a></li></ul><p><em>As an affiliate partner, I earn from qualifying purchases.</em></p><h2>Direct Support</h2><ul><li data-list-item-id="ecf9e93bb225a72c14d3a3dd57faf5770">Venmo (coming soon)</li><li data-list-item-id="e076c40c5b521eb9977826b38a09ab859">Ko-fi (coming soon)</li><li data-list-item-id="ec90076648f37f693ab89763a6da58401">PayPal (coming soon)</li></ul><h3>Cryptocurrency</h3><ul><li data-list-item-id="e660d6c95e10a0441e9b22a44d0520237">Bitcoin (<strong>BTC</strong>): bc1qwp0n4fcfsy6ew9np2u4uptup0s2cxeyuy8rsuk</li><li data-list-item-id="e4bccd678457f37ac5ba412e2e3dc08f6">Litecoin (<strong>LTC</strong>): ltc1q84z7490sv5d0a08y4v3jd5wq47j293pydh3a9n</li><li data-list-item-id="e5d9206d20950b3d4e81b631946440ebd">Monero (<strong>XMR</strong>):&nbsp;845DrB9iJfR5Jma8BJCrKkHmhbFY36Aj8Y2SuKEjx6FjJbCcKww4iKY8GyVZ2Vj8EKRY5F5tA1Q5ZHWNfMJ8wmC839Ppa7q</li><li data-list-item-id="ee2bab8d4e1610e4a2b0ab8fedd21a9bd">Solana (<strong>SOL</strong>): kD9zJ6C31WZMwp166xgbMcC26LqWWcMWiuccw6awJrQ</li><li data-list-item-id="e04c9e3350ee0300a8549fbdf6e3e9536">Tron (<strong>TRX</strong>): TYkpr76TbuJM46J8RtxbMLijUfCViourpL</li><li data-list-item-id="ebce9377661c2a08a73cbfaf2a5a3adda">Doge (<strong>DOGE</strong>): DC3utSEqSpUtBugDGZ9YM38UpdfbBDxRsF</li><li data-list-item-id="e604fb6de2d147e354ae1db6aedcbe466">Cardano (<strong>ADA</strong>): addr1q96aury79gre3334yge0na3znh4fyxctex6wmmsr9n6ntl4um6kju7q5z5qlkfulthwj44rsn5rgnz56xezcx7uzpx0qzhusel</li><li data-list-item-id="e64fce869e5c3c7c481255a532b2f0628">Bitcoin Cash (<strong>BCH</strong>): qz8cphyvtgjp7dutnz2xy32av5hcuge6jvz3adq6es</li><li data-list-item-id="ee714a706fe3663f0742da0f4111a5dda">EVM-compatible (<strong>ETH</strong>, <strong>BNB</strong>, <strong>POL</strong>, <strong>S</strong>, etc): 0xEdfb69eb8e6d498c13ED1778725141e1ABF6d32C</li></ul>'
+      format: content_format
+  field_description:
+    -
+      value: 'You can find a list of ways to support my work directly.'
+  field_seo_analysis:
+    -
+      status: '3.1'
+      focus_keyword: support
+      title: ''
+      description: ''
