@@ -8,11 +8,11 @@ recipes:
   - core/recipes/core_recommended_maintenance
   - core/recipes/core_recommended_performance
   - drupal_cms_admin_ui
-  #- drupal_cms_authentication
-  # - drupal_cms_anti_spam
+  - drupal_cms_authentication
+  - drupal_cms_anti_spam
   - drupal_cms_media
-  # - drupal_cms_privacy_basic
-  # - drupal_cms_seo_basic
+  - drupal_cms_privacy_basic
+  - drupal_cms_seo_basic
   # - easy_email_express
 install:
   - curtistinkers_theme
