@@ -4,6 +4,7 @@ dependencies:
   config:
     - canvas.component.block.system_branding_block
     - canvas.component.block.system_menu_block.footer
+    - canvas.component.block.system_menu_block.secondary
     - canvas.component.block.system_menu_block.social
     - canvas.component.sdc.curtistinkers_theme.footer
     - canvas.component.sdc.curtistinkers_theme.group
@@ -30,6 +31,12 @@ component_tree:
     uuid: 0013a76b-61bc-4a61-95c2-9b8e3ee45aef
     component_id: block.system_branding_block
     inputs: '{"use_site_logo":false,"use_site_name":true,"use_site_slogan":false,"label":"Site branding","label_display":"0"}'
+  '0:footer_first:1':
+    parent_uuid: bd25d2aa-d623-479e-86c7-89ecffdd3dfa
+    slot: footer_first
+    uuid: b4189610-eaec-4da5-8e0a-e298a205d7dc
+    component_id: block.system_menu_block.secondary
+    inputs: '{"label":"Secondary navigation","label_display":"0","level":1,"depth":null,"expand_all_items":false}'
   '0:footer_last:0':
     parent_uuid: bd25d2aa-d623-479e-86c7-89ecffdd3dfa
     slot: footer_last
