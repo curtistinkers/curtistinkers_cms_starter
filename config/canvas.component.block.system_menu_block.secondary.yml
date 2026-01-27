@@ -1,10 +1,11 @@
 langcode: en
-status: true
+status: false
 dependencies:
   config:
     - system.menu.secondary
   module:
     - system
+active_version: 2f5ebe22feed1255
 versioned_properties:
   active:
     settings:
