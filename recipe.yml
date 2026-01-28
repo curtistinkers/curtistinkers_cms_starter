@@ -29,6 +29,7 @@ install:
   - canvas
   # This theme MUST be installed or Canvas breaks in strange ways.
   - canvas_stark
+  - drupal_cms_helper
 config:
   import:
       canvas: '*'
