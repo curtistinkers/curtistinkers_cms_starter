@@ -5,7 +5,7 @@ dependencies:
     - options
   theme:
     - curtistinkers_theme
-active_version: 80684659bfb1ef65
+active_version: 97c1cd91b49b80b1
 versioned_properties:
   active:
     settings:
@@ -40,7 +40,7 @@ versioned_properties:
           field_widget: options_select
           default_value:
             -
-              value: heading-responsive-4xl
+              value: default
           expression: ℹ︎list_string␟value
         text_color:
           required: true
@@ -79,4 +79,3 @@ id: sdc.curtistinkers_theme.heading
 provider: curtistinkers_theme
 source: sdc
 source_local_id: 'curtistinkers_theme:heading'
-category: Base

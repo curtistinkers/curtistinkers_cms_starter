@@ -14,7 +14,7 @@ dependencies:
     - options
   theme:
     - curtistinkers_theme
-active_version: '2b510bc2d13c6354'
+active_version: '1123676070e24623'
 versioned_properties:
   active:
     settings:
@@ -93,4 +93,3 @@ id: sdc.curtistinkers_theme.cta
 provider: curtistinkers_theme
 source: sdc
 source_local_id: 'curtistinkers_theme:cta'
-category: Hero
