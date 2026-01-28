@@ -35,6 +35,41 @@ default:
         size: large
         label: 'Call to action'
         icon: arrow-right
+    -
+      uuid: e451ac5a-4596-46a7-b55c-cd0e5b54ac59
+      component_id: sdc.curtistinkers_theme.section
+      inputs:
+        width: 100%
+        columns: '100'
+        mobile_columns: '1'
+        margin_block_start: '48'
+        margin_block_end: '48'
+        padding_block_start: '0'
+        padding_block_end: '0'
+        section_header: true
+        section_footer: true
+        views_columns: 33-33-33
+    -
+      parent_uuid: e451ac5a-4596-46a7-b55c-cd0e5b54ac59
+      slot: header_slot
+      uuid: 2d66fff0-a22f-4521-9416-121f54653c4c
+      component_id: sdc.curtistinkers_theme.heading
+      inputs:
+        heading_text: 'Featured posts'
+        level: 1
+        text_size: default
+        text_color: primary
+        align: center
+    -
+      parent_uuid: e451ac5a-4596-46a7-b55c-cd0e5b54ac59
+      slot: main_slot
+      uuid: e5d7259e-7ce7-4a27-9ac0-398e7149f838
+      component_id: block.views_block.blog-featured_blog_posts_block
+      inputs:
+        label: 'Featured posts'
+        label_display: '0'
+        views_label: ''
+        items_per_page: null
   path:
     -
       alias: /home
