@@ -10,6 +10,7 @@
         "drupal/drupal_cms_anti_spam": "^2",
         "drupal/drupal_cms_authentication": "^2",
         "drupal/drupal_cms_content_type_base": "^2",
+        "drupal/drupal_cms_forms":"^2.0",
         "drupal/drupal_cms_helper": "^2",
         "drupal/drupal_cms_media": "^2",
         "drupal/drupal_cms_privacy_basic": "^2",
