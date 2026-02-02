@@ -18,6 +18,7 @@
         "drupal/drupal_cms_seo_basic": "^2",
         "drupal/easy_email_express": "^1.0.2",
 
+        "drupal/highlightjs_input_filter": "^1.1",
         "drupal/ui_icons": "^1.1",
         "drupal/views_rss":"^2.4"
     }
