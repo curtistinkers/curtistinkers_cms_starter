@@ -3,8 +3,30 @@
     "description": "A basic site template to get started with Drupal CMS. Bring your own design, and build what you need.",
     "type": "drupal-recipe",
     "license": ["GPL-2.0-or-later"],
+    "authors": [
+        {
+            "name": "curtistinkers",
+            "homepage": "https://curtistinkers.com",
+            "role": "Creator"
+        }
+    ],
+    "keywords": [
+        "drupal", "drupal-cms", "drupal-recipe", "curtistinkers-cms"
+    ],
+    "support": {
+        "source": "https://github.com/curtistinkers/curtistinkers_cms_starter",
+        "issues": "https://github.com/curtistinkers/curtistinkers_cms_starter/issues"
+    },
+    "repositories": {
+        "drupal": {
+            "type": "composer",
+            "url": "https://packages.drupal.org/8",
+            "only": ["drupal-module/*, drupal-theme/*, drupal-recipe/*, drupal-profile/*"]
+        }
+    },
     "require": {
         "drupal/curtistinkers_theme": "dev-main",
+        "drupal/curtistinkers_cms_media": "dev-main",
 
         "drupal/drupal_cms_admin_ui": "^2",
         "drupal/drupal_cms_anti_spam": "^2",
@@ -12,7 +34,6 @@
         "drupal/drupal_cms_content_type_base": "^2",
         "drupal/drupal_cms_forms":"^2.0",
         "drupal/drupal_cms_helper": "^2",
-        "drupal/drupal_cms_media": "^2",
         "drupal/drupal_cms_privacy_basic": "^2",
         "drupal/drupal_cms_search": "^2",
         "drupal/drupal_cms_seo_basic": "^2",
