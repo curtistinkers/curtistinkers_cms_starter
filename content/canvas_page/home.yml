@@ -18,23 +18,13 @@ default:
       value: Home
   components:
     -
-      uuid: b7563f5f-d4db-4029-a292-593e82fda2ec
-      component_id: sdc.curtistinkers_theme.cta
+      uuid: 5cb044ae-3fbf-4513-9fb1-db156773ea91
+      component_id: block.views_block.blog-latest_blog_post_billboard_block
       inputs:
-        heading_text: 'Your hero content goes here'
-        level: 1
-        text: 'Bring your site to life, starting here.'
-        text_align: center
-    -
-      parent_uuid: b7563f5f-d4db-4029-a292-593e82fda2ec
-      slot: actions
-      uuid: 1c006688-4739-47e3-a57c-eaa65026afbf
-      component_id: sdc.curtistinkers_theme.button
-      inputs:
-        variant: primary
-        size: large
-        label: 'Call to action'
-        icon: arrow-right
+        label: 'Latest post billboard'
+        label_display: '0'
+        views_label: ''
+        items_per_page: null
     -
       uuid: e451ac5a-4596-46a7-b55c-cd0e5b54ac59
       component_id: sdc.curtistinkers_theme.section
@@ -47,7 +37,7 @@ default:
         padding_block_start: '0'
         padding_block_end: '0'
         section_header: true
-        section_footer: true
+        section_footer: false
         views_columns: 33-33-33
     -
       parent_uuid: e451ac5a-4596-46a7-b55c-cd0e5b54ac59
@@ -70,6 +60,77 @@ default:
         label_display: '0'
         views_label: ''
         items_per_page: null
+    -
+      uuid: b7563f5f-d4db-4029-a292-593e82fda2ec
+      component_id: sdc.curtistinkers_theme.cta
+      inputs:
+        heading_text: 'Explore more content'
+        level: 1
+        text_align: center
+        background_color: accent
+        text: 'You can find all of of our blog posts and projects with the buttons below.'
+    -
+      parent_uuid: b7563f5f-d4db-4029-a292-593e82fda2ec
+      slot: actions
+      uuid: 1c006688-4739-47e3-a57c-eaa65026afbf
+      component_id: sdc.curtistinkers_theme.button
+      inputs:
+        variant: primary
+        size: large
+        label: 'Blog posts'
+        icon: note-pencil
+        mobile_width: false
+        icon_first: true
+        disabled: false
+        href: /blog
+    -
+      parent_uuid: b7563f5f-d4db-4029-a292-593e82fda2ec
+      slot: actions
+      uuid: 0d8bc33e-cf65-4bca-837c-8071e2896d9b
+      component_id: sdc.curtistinkers_theme.button
+      inputs:
+        variant: secondary
+        size: large
+        label: Projects
+        icon: kanban
+        mobile_width: false
+        icon_first: true
+        disabled: false
+        href: /projects
+    -
+      uuid: f6c019f4-d20f-4676-9f07-f1e0debeda15
+      component_id: sdc.curtistinkers_theme.section
+      inputs:
+        width: 100%
+        columns: '100'
+        mobile_columns: '1'
+        margin_block_start: '48'
+        margin_block_end: '48'
+        padding_block_start: '0'
+        padding_block_end: '0'
+        section_header: true
+        section_footer: false
+    -
+      parent_uuid: f6c019f4-d20f-4676-9f07-f1e0debeda15
+      slot: header_slot
+      uuid: 52597e67-d4aa-45f6-a9ff-1cd986216692
+      component_id: sdc.curtistinkers_theme.heading
+      inputs:
+        heading_text: 'Recently updated'
+        level: 1
+        text_size: default
+        text_color: secondary
+        align: center
+    -
+      parent_uuid: f6c019f4-d20f-4676-9f07-f1e0debeda15
+      slot: main_slot
+      uuid: a782df72-5ce6-40a1-ac8f-e8f2372c60af
+      component_id: block.views_block.project-featured_project_pages_block
+      inputs:
+        label: 'Featured project pages'
+        label_display: '0'
+        views_label: ''
+        items_per_page: 1
   path:
     -
       alias: /home
