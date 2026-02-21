@@ -25,8 +25,8 @@
         }
     },
     "require": {
-        "drupal/curtistinkers_theme": "dev-main",
         "curtistinkers/curtistinkers_cms_media": "dev-main",
+        "drupal/curtistinkers_theme": "dev-main",
 
         "drupal/drupal_cms_admin_ui": "^2",
         "drupal/drupal_cms_anti_spam": "^2",
