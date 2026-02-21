@@ -11,8 +11,8 @@ recipes:
   - drupal_cms_anti_spam
   - drupal_cms_privacy_basic
   - drupal_cms_seo_basic
-  - drupal_cms_forms
   - curtistinkers_cms_blog
+  # - curtistinkers_cms_forms
   - curtistinkers_cms_media
   - curtistinkers_cms_project
   # - easy_email_express
