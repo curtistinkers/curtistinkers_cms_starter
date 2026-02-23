@@ -33,6 +33,7 @@ config:
     # Set /home to front page
     system.site:
       simpleConfigUpdate:
+        slogan: 'Be kind to yourself; be kind to others; have a wonderful day'
         # The Home page, built in Canvas.
         page.front: '/home'
     # Make curtistinkers_theme default theme
