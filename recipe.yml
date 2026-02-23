@@ -2,38 +2,33 @@ name: Curtis Tinkers
 type: Site
 description: A simple template with just the basics. Bring your own design, and build what you need.
 recipes:
-  # Required for canvas
   - core/recipes/administrator_role
   - core/recipes/core_recommended_maintenance
   - core/recipes/core_recommended_performance
-  - drupal_cms_admin_ui
-  - drupal_cms_authentication
-  - drupal_cms_anti_spam
-  - drupal_cms_privacy_basic
-  - drupal_cms_seo_basic
   - curtistinkers_cms_blog
   # - curtistinkers_cms_forms
   - curtistinkers_cms_media
-  - curtistinkers_cms_project
-  # - easy_email_express
+  # - curtistinkers_cms_project
+  - curtistinkers_cms_theme_components
+  - drupal_cms_admin_ui
+  - drupal_cms_anti_spam
+  - drupal_cms_authentication
+  - drupal_cms_privacy_basic
+  - drupal_cms_seo_basic
+  - easy_email_express
 install:
   - curtistinkers_theme
-  # CVA is a curtistinkers_theme dependency.
+  # CVA is a Curtis Tinkers Theme dependency.
   - cva
   - menu_link_content
-  - redis
+  - project_browser
+  # - redis
   - ui_icons_menu
-  # - project_browser
+  - drupal_cms_helper
   # These are in Standard.
   - inline_form_errors
   - config
-  - canvas
-  # This theme MUST be installed or Canvas breaks in strange ways.
-  - canvas_stark
-  - drupal_cms_helper
 config:
-  import:
-      canvas: '*'
   actions:
     # Set /home to front page
     system.site:
@@ -57,47 +52,49 @@ config:
             ttl: 1
           drupalorg_jsonapi: []
         default_source: recommended
+    views.view.content:
+      disable: []
     # Disable Canvas components that aren't really useful in building pages or
     # content templates.
-    # canvas.component.block.announce_block:
-    #   disable: []
-    # canvas.component.block.dashboard_placeholder:
-    #   disable: []
-    # canvas.component.block.dashboard_site_status:
-    #   disable: []
-    # canvas.component.block.local_actions_block:
-    #   disable: []
-    # canvas.component.block.local_tasks_block:
-    #   disable: []
-    # canvas.component.block.navigation_dashboard:
-    #   disable: []
-    # canvas.component.block.navigation_link:
-    #   disable: []
-    # canvas.component.block.navigation_shortcuts:
-    #   disable: []
-    # canvas.component.block.navigation_user:
-    #   disable: []
+    ?canvas.component.block.announce_block:
+      disable: []
+    ?canvas.component.block.dashboard_placeholder:
+      disable: []
+    ?canvas.component.block.dashboard_site_status:
+      disable: []
+    canvas.component.block.local_actions_block:
+      disable: []
+    canvas.component.block.local_tasks_block:
+      disable: []
+    ?canvas.component.block.navigation_dashboard:
+      disable: []
+    ?canvas.component.block.navigation_link:
+      disable: []
+    ?canvas.component.block.navigation_shortcuts:
+      disable: []
+    ?canvas.component.block.navigation_user:
+      disable: []
     canvas.component.block.project_browser_block.*:
       disable: []
-    # canvas.component.block.system_menu_block.admin:
-    #   disable: []
-    # canvas.component.block.system_menu_block.navigation-user-links:
-    #   disable: []
-    # canvas.component.block.system_menu_block.tools:
-    #   disable: []
-    # canvas.component.block.system_menu_block.top-tasks:
-    #   disable: []
-    # canvas.component.block.system_messages_block:
-    #   disable: []
-    canvas.component.block.views_block.publishing_content-block_drafts:
+    ?canvas.component.block.system_menu_block.admin:
       disable: []
-    canvas.component.block.views_block.publishing_content-block_scheduled:
+    ?canvas.component.block.system_menu_block.navigation-user-links:
       disable: []
-    canvas.component.block.views_block.recent_pages-block_recent_pages:
+    ?canvas.component.block.system_menu_block.tools:
       disable: []
-    canvas.component.sdc.navigation.title:
+    ?canvas.component.block.system_menu_block.top-tasks:
       disable: []
-    canvas.component.block.events_block:
+    canvas.component.block.system_messages_block:
+      disable: []
+    ?canvas.component.block.views_block.publishing_content-block_drafts:
+      disable: []
+    ?canvas.component.block.views_block.publishing_content-block_scheduled:
+      disable: []
+    ?canvas.component.block.views_block.recent_pages-block_recent_pages:
+      disable: []
+    ?canvas.component.sdc.navigation.title:
+      disable: []
+    ?canvas.component.block.events_block:
       disable: []
 extra:
   recipe_installer_kit:
