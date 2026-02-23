@@ -29,6 +29,7 @@ Starter template for the [Curtis Tinkers website](https://curtistinkers.com).
 - [Project Browser](https://www.drupal.org/project/project_browser)
 
 ## Installation
+
 This project is part of [Drupal CMS](https://drupal.org/project/cms). If you're not using Drupal CMS, you can still use this recipe in your own project. Add it with the following Composer command:
 
 ```bash
