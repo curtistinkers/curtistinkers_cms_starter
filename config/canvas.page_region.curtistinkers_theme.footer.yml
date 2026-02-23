@@ -17,8 +17,8 @@ dependencies:
   theme:
     - curtistinkers_theme
 id: curtistinkers_theme.footer
-region: footer
 theme: curtistinkers_theme
+region: footer
 component_tree:
   0:
     uuid: bd25d2aa-d623-479e-86c7-89ecffdd3dfa
@@ -42,7 +42,7 @@ component_tree:
     slot: footer_last
     uuid: 361b16b8-33aa-44a2-b8fc-386fc71d827d
     component_id: sdc.curtistinkers_theme.group
-    inputs: '{"flex_direction":"column","items_align":"center","flex_align":"center"}'
+    inputs: '{"flex_direction":"column","items_align":"center","flex_align":"center","flex_gap":"md"}'
   '0:footer_last:0:group_slot:0':
     parent_uuid: 361b16b8-33aa-44a2-b8fc-386fc71d827d
     slot: group_slot
