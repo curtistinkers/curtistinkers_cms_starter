@@ -1,0 +1,44 @@
+_meta:
+  version: '1.0'
+  entity_type: menu_link_content
+  uuid: 5704fcb4-b1ef-40bc-9dd6-9bd26a669239
+  bundle: menu_link_content
+  default_langcode: en
+default:
+  enabled:
+    -
+      value: true
+  title:
+    -
+      value: Logout
+  menu_name:
+    -
+      value: footer
+  link:
+    -
+      uri: 'internal:/user/logout'
+      title: ''
+      options:
+        icon:
+          target_id: 'phosphor:door-open'
+          settings:
+            phosphor:
+              size: '32'
+              color: '#000000'
+              alt: 'Log out of user account'
+        icon_display: before
+  external:
+    -
+      value: false
+  rediscover:
+    -
+      value: true
+  weight:
+    -
+      value: 50
+  expanded:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
