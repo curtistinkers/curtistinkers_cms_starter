@@ -37,6 +37,7 @@
         "drupal/drupal_cms_privacy_basic": "^2",
         "drupal/drupal_cms_search": "^2",
         "drupal/drupal_cms_seo_basic": "^2",
+        "drupal/drupal_cms_seo_tools": "^2",
         "drupal/easy_email_express": "^1.0.2",
 
         "drupal/highlightjs_input_filter": "^1.1",

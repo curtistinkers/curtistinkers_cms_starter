@@ -15,6 +15,7 @@ recipes:
   - drupal_cms_authentication
   - drupal_cms_privacy_basic
   - drupal_cms_seo_basic
+  - drupal_cms_seo_tools
   - easy_email_express
 install:
   - curtistinkers_theme
@@ -33,7 +34,7 @@ config:
     # Set /home to front page
     system.site:
       simpleConfigUpdate:
-        slogan: 'Be kind to yourself; be kind to others; have a wonderful day'
+        slogan: 'Be kind to yourself and to others, and make today a wonderful day'
         # The Home page, built in Canvas.
         page.front: '/home'
     # Make curtistinkers_theme default theme
