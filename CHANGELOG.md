@@ -27,6 +27,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Social media links
 - Content and content type to top tasks link
 - Sponsorship page
+- Login, logout, and account menu links on main and footer menu
 
 ### Changed
 
