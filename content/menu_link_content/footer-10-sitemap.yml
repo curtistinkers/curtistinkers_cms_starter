@@ -1,0 +1,44 @@
+_meta:
+  version: '1.0'
+  entity_type: menu_link_content
+  uuid: 6ca73647-c2e0-45c6-95aa-c96ff3b17c44
+  bundle: menu_link_content
+  default_langcode: en
+default:
+  enabled:
+    -
+      value: true
+  title:
+    -
+      value: Sitemap
+  menu_name:
+    -
+      value: footer
+  link:
+    -
+      uri: 'internal:/sitemap'
+      title: ''
+      options:
+        icon:
+          target_id: 'phosphor:map-trifold'
+          settings:
+            phosphor:
+              size: '32'
+              color: '#000000'
+              alt: Sitemap
+        icon_display: before
+  external:
+    -
+      value: false
+  rediscover:
+    -
+      value: true
+  weight:
+    -
+      value: 10
+  expanded:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true

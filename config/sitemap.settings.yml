@@ -1,0 +1,39 @@
+page_title: Sitemap
+path: /sitemap
+message:
+  value: 'This is a map of all the pages on our site.'
+  format: plain_text
+plugins:
+  'menu:main':
+    base_plugin: menu
+    enabled: true
+    weight: 0
+    settings:
+      title: ''
+      show_disabled: false
+      menu_depth: 9
+    id: 'menu:main'
+    provider: sitemap
+  'menu:secondary':
+    base_plugin: menu
+    enabled: true
+    weight: 1
+    settings:
+      title: ''
+      show_disabled: false
+      menu_depth: 9
+    id: 'menu:secondary'
+    provider: sitemap
+  'menu:footer':
+    base_plugin: menu
+    enabled: true
+    weight: 2
+    settings:
+      title: ''
+      show_disabled: false
+      menu_depth: 9
+    id: 'menu:footer'
+    provider: sitemap
+  frontpage:
+    enabled: false
+include_css: true

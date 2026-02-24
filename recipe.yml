@@ -26,6 +26,7 @@ install:
   # - redis
   - ui_icons_menu
   - drupal_cms_helper
+  - sitemap
   # These are in Standard.
   - inline_form_errors
   - config
