@@ -42,6 +42,7 @@
 
         "drupal/highlightjs_input_filter": "^1.1",
         "drupal/ui_icons": "^1.1",
+        "drupal/sitemap": "^2.5",
         "drupal/views_rss":"^2.4"
     }
 }
