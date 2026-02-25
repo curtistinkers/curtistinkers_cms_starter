@@ -4,4 +4,4 @@ dependencies: {  }
 id: secondary
 label: 'Secondary navigation'
 description: 'Site section links for content outside the main navigation'
-locked: false
+locked: true

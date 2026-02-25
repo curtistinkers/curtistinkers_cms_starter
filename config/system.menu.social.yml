@@ -4,4 +4,4 @@ dependencies: {  }
 id: social
 label: Social links
 description: 'Links to social media sites.'
-locked: false
+locked: true
