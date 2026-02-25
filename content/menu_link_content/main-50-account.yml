@@ -1,7 +1,7 @@
 _meta:
   version: '1.0'
   entity_type: menu_link_content
-  uuid: 87c31bdf-4209-40a9-b921-c8bda114fb9c
+  uuid: a1046a92-93a1-449b-a32e-4988f0d4fc6a
   bundle: menu_link_content
   default_langcode: en
 default:
@@ -10,22 +10,22 @@ default:
       value: true
   title:
     -
-      value: Login
+      value: Account
   menu_name:
     -
       value: main
   link:
     -
-      uri: 'internal:/user/login'
+      uri: 'internal:/user'
       title: ''
       options:
         icon:
-          target_id: 'phosphor:user'
+          target_id: 'phosphor:user-gear'
           settings:
             phosphor:
               size: '32'
               color: '#000000'
-              alt: 'Log in to your user account'
+              alt: 'View your user account'
         icon_display: before
   external:
     -
@@ -35,7 +35,7 @@ default:
       value: true
   weight:
     -
-      value: 48
+      value: 50
   expanded:
     -
       value: false
